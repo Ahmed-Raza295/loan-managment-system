@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import styled from 'styled-components';
 import Button from '../components/Button';
 import { supabase } from '../utils/supabseClient';
-const SignUP = () => {
+const SignUp = () => {
 
 const [Email , setEmail] = useState("")
 const [Password , setPassword] = useState("")
@@ -220,4 +220,4 @@ const StyledWrapper = styled.div`
     }
   }`;
 
-export default SignUP;
+export default SignUp;
